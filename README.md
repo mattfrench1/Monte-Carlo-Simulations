@@ -23,24 +23,24 @@
 
 # Requirements:
 
-# Run this for some combinations of trials (NUMTRIALS) and threads (NUMT). Do timing for each combination. Like we talked about in the Project Notes, run each experiment some number of times (NUMTIMES) and record just the peak performance.
+ Run this for some combinations of trials (NUMTRIALS) and threads (NUMT). Do timing for each combination. Like we talked about in the Project Notes, run each experiment some number of times (NUMTIMES) and record just the peak performance.
 
-# Produce a rectangular table and two graphs. The two graphs need to be:
+ Produce a rectangular table and two graphs. The two graphs need to be:
 
-# Performance versus the number of Monte Carlo trials, with the colored lines being the number of OpenMP threads.
-# Performance versus the number of OpenMP threads, with the colored lines being the number of Monte Carlo trials.
-# (See the Project Notes, Scripting, Graphing, and Pivot Tables to see an example of this and how to get Excel to do most of the work for you.)
-# Choosing one of the runs (one of the ones with the maximum number of trials would be good), tell me what you think the actual probability is.
+ Performance versus the number of Monte Carlo trials, with the colored lines being the number of OpenMP threads.
+ Performance versus the number of OpenMP threads, with the colored lines being the number of Monte Carlo trials.
+ (See the Project Notes, Scripting, Graphing, and Pivot Tables to see an example of this and how to get Excel to do most of the work for you.)
+ Choosing one of the runs (one of the ones with the maximum number of trials would be good), tell me what you think the actual probability is.
 
-# Choosing one of the runs, compute Fp, the Parallel Fraction, for this computation.
+ Choosing one of the runs, compute Fp, the Parallel Fraction, for this computation.
 
-# Given this Parallel Fraction, what would the maximum speedup be if you could throw hundreds of cores at it?
-
-
-# Does a Ball End Up in the Cup?
+ Given this Parallel Fraction, what would the maximum speedup be if you could throw hundreds of cores at it?
 
 
-# Compute vx, the horizontal velocity coming off the ski jump ramp.
-# Compute t, the time to reach the ground from the ski jump ramp.
-# Compute dx, the horizontal distance traveled before landing on the ground.
-# The ball is considered to have landed in the cup if the absolute value (C/C++ fabs function) of the distance (dx - distx) is <= the RADIUS.
+ Does a Ball End Up in the Cup?
+
+
+ Compute vx, the horizontal velocity coming off the ski jump ramp.
+ Compute t, the time to reach the ground from the ski jump ramp.
+ Compute dx, the horizontal distance traveled before landing on the ground.
+ The ball is considered to have landed in the cup if the absolute value (C/C++ fabs function) of the distance (dx - distx) is <= the RADIUS.
