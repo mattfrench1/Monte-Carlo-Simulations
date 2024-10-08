@@ -1,24 +1,24 @@
 # Introduction
-## Monte Carlo simulation is used to determine the range of outcomes for a series of parameters, each of which has a probability distribution showing how likely each option is to happen. In this project, you will take a scenario and develop a Monte Carlo simulation of it, determining how likely a particular output is to ## happen.
+ Monte Carlo simulation is used to determine the range of outcomes for a series of parameters, each of which has a probability distribution showing how likely each option is to happen. In this project, you will take a scenario and develop a Monte Carlo simulation of it, determining how likely a particular output is to  happen.
 
-## Clearly, this is very parallelizable -- it is the same computation being run on many permutations of the input parameters. You will run this with OpenMP, testing it on different numbers of threads (at least 1, 2, 4, 6, and 8).
+ Clearly, this is very parallelizable -- it is the same computation being run on many permutations of the input parameters. You will run this with OpenMP, testing it on different numbers of threads (at least 1, 2, 4, 6, and 8).
 
 
 # The Scenario
-## This project is inspired by this video. Be sure to watch it before reading on (it's only 41 seconds).
+ This project is inspired by this video. Be sure to watch it before reading on (it's only 41 seconds).
 
-## A golf ball is set in motion at the top of a ski jump at height BeforeY. It rolls until its height is AfterY at which point it shoots out horizontally. It continues until it hits the ground. A hole of radius RADIUS exists at a horizontal distance DistX from the end of the ski jump. Will the golf ball land inthe hole?
+ A golf ball is set in motion at the top of a ski jump at height BeforeY. It rolls until its height is AfterY at which point it shoots out horizontally. It continues until it hits the ground. A hole of radius RADIUS exists at a horizontal distance DistX from the end of the ski jump. Will the golf ball land inthe hole?
 
 
-## If we knew the exact measurements, we could figure this out exactly, but we don't have exact measurments. Several people have taken measurements and all have come up with different numbers. Their mean measurements and tolerances (±) are shown in the table below:
-## Quantity	Mean Value	± Value
-## BeforeY	80.f	5.f
-## AfterY	20.f	1.f
-## DistX	70.f	5.f
+ If we knew the exact measurements, we could figure this out exactly, but we don't have exact measurments. Several people have taken measurements and all have come up with different numbers. Their mean measurements and tolerances (±) are shown in the table below:
+ Quantity	Mean Value	± Value
+ BeforeY	80.f	5.f
+ AfterY	20.f	1.f
+ DistX	70.f	5.f
 
-## Given all of this uncertainty of the dimensions, what is the probability that the golf ball will actually end up in the cup?
+ Given all of this uncertainty of the dimensions, what is the probability that the golf ball will actually end up in the cup?
 
-## OK, you physics hounds, knock it off. Yes, we are going to neglect depth effects, moment of inertia, air resistance, etc, etc. Let's just have fun with this problem as stated.
+ OK, you physics hounds, knock it off. Yes, we are going to neglect depth effects, moment of inertia, air resistance, etc, etc. Let's just have fun with this problem as stated.
 
 
 # Requirements:
